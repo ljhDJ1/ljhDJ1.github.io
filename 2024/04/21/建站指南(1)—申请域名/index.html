@@ -391,28 +391,24 @@
 	
 	<div class="kira-post-footer">
 		
+	<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css" />
+	<div id="gitalk"></div>
+	<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+	<script type="text/javascript">
+		const gitalk = new Gitalk({
+			clientID: 'Ov23liyr9o7EEepIH8mP',
+			clientSecret: '2835ad218c4f2ce873e6aa2926af76d1c7a9092b',
+			id: '建站指南(1)—申请域名',
+			repo: 'gitalk-comments',
+			owner: 'ljhdj1',
+			admin: 'ljhdj1',
+			title: '',
+		});
+		gitalk.render('gitalk');
+	</script>
+
 
 		
-	<div class="giscus"></div>
-  
-    <script src="https://giscus.app/client.js"
-      data-repo="ch1ny/ch1ny.github.io"
-      data-repo-id="R_kgDOHGgizw"
-      data-category="General"
-      data-category-id="DIC_kwDOHGgiz84CU88t"
-      data-mapping="pathname"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="top"
-      data-theme="light"
-      data-lang="en"
-      data-loading="lazy"
-      crossorigin="anonymous"
-      async  
-    ></script>
-  
-
 	</div>
 	
 </div>
